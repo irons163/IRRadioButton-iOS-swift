@@ -1,0 +1,6 @@
+framework module IRRadioButton_iOS_swift {
+  umbrella header "IRRadioButton-iOS-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,18 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A09E99C264D2E2100CBB121 /* IRRadioButton_iOS_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A54D477264BB97500DCB6E4 /* IRRadioButton_iOS_swift.framework */; };
-		4A09E99D264D2E2200CBB121 /* IRRadioButton_iOS_swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A54D477264BB97500DCB6E4 /* IRRadioButton_iOS_swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4A54D45E264BB96600DCB6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54D45D264BB96600DCB6E4 /* AppDelegate.swift */; };
 		4A54D460264BB96600DCB6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54D45F264BB96600DCB6E4 /* SceneDelegate.swift */; };
 		4A54D462264BB96600DCB6E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54D461264BB96600DCB6E4 /* ViewController.swift */; };
 		4A54D465264BB96600DCB6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A54D463264BB96600DCB6E4 /* Main.storyboard */; };
 		4A54D467264BB96800DCB6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A54D466264BB96800DCB6E4 /* Assets.xcassets */; };
 		4A54D46A264BB96800DCB6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A54D468264BB96800DCB6E4 /* LaunchScreen.storyboard */; };
+		681E98067126983935EED878 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F4DA011CD20F2C3A1C97CD /* Pods_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,21 +26,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		4A09E99E264D2E2200CBB121 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4A09E99D264D2E2200CBB121 /* IRRadioButton_iOS_swift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		13F4DA011CD20F2C3A1C97CD /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6F6C8E8A4843F4B82F6DDD /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		4A54D45A264BB96600DCB6E4 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A54D45D264BB96600DCB6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A54D45F264BB96600DCB6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +38,7 @@
 		4A54D469264BB96800DCB6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A54D46B264BB96800DCB6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A54D472264BB97500DCB6E4 /* IRRadioButton-iOS-swift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "IRRadioButton-iOS-swift.xcodeproj"; path = "../IRRadioButton-iOS-swift.xcodeproj"; sourceTree = "<group>"; };
+		AF679602D49955DDD7D77BAF /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A09E99C264D2E2100CBB121 /* IRRadioButton_iOS_swift.framework in Frameworks */,
+				681E98067126983935EED878 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +56,7 @@
 		4A09E99A264D2E2100CBB121 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13F4DA011CD20F2C3A1C97CD /* Pods_demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,6 +68,7 @@
 				4A54D45C264BB96600DCB6E4 /* demo */,
 				4A54D45B264BB96600DCB6E4 /* Products */,
 				4A09E99A264D2E2100CBB121 /* Frameworks */,
+				D3F40A0AAE0C9B22D62B761D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +102,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D3F40A0AAE0C9B22D62B761D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F6C8E8A4843F4B82F6DDD /* Pods-demo.debug.xcconfig */,
+				AF679602D49955DDD7D77BAF /* Pods-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,10 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A54D46E264BB96800DCB6E4 /* Build configuration list for PBXNativeTarget "demo" */;
 			buildPhases = (
+				C7A57B1167DCA14454B25CD2 /* [CP] Check Pods Manifest.lock */,
 				4A54D456264BB96600DCB6E4 /* Sources */,
 				4A54D457264BB96600DCB6E4 /* Frameworks */,
 				4A54D458264BB96600DCB6E4 /* Resources */,
-				4A09E99E264D2E2200CBB121 /* Embed Frameworks */,
+				B6185A1C0058B91B73D051AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +193,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6185A1C0058B91B73D051AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A57B1167DCA14454B25CD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A54D456264BB96600DCB6E4 /* Sources */ = {
@@ -345,6 +387,7 @@
 		};
 		4A54D46F264BB96800DCB6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6F6C8E8A4843F4B82F6DDD /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,6 +407,7 @@
 		};
 		4A54D470264BB96800DCB6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF679602D49955DDD7D77BAF /* Pods-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
